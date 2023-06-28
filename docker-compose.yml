@@ -1,0 +1,26 @@
+version: '3'
+services:
+  db:
+    image: mysql
+    restart: always
+    env_file: docker.env
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - ./mysql-dump:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      interval: 3s
+      retries: 10
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    restart: on-failure
+    depends_on:
+       db:
+         condition: service_healthy
+    volumes:
+      - .:/app

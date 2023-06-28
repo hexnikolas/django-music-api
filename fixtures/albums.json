@@ -1,0 +1,47 @@
+[
+  {
+    "model": "music.Album",
+    "pk": 1,
+    "fields": {
+      "name": "1989",
+      "type": "Album",
+      "artist": "Taylor Swift"
+    }
+  },
+  {
+    "model": "music.Album",
+    "pk": 2,
+    "fields": {
+      "name": "Led Zeppelin IV",
+      "type": "Single",
+      "artist": "Led Zeppelin"
+    }
+  },
+  {
+    "model": "music.Album",
+    "pk": 3,
+    "fields": {
+      "name": "Master of Puppets",
+      "type": "EP",
+      "artist": "Metallica"
+    }
+  },
+  {
+    "model": "music.Album",
+    "pk": 4,
+    "fields": {
+      "name": "AM",
+      "type": "Album",
+      "artist": "Arctic Monkeys"
+    }
+  },
+  {
+    "model": "music.Album",
+    "pk": 5,
+    "fields": {
+      "name": "Listen",
+      "type": "Album",
+      "artist": "David Guetta"
+    }
+  }
+]

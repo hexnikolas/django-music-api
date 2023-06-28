@@ -1,0 +1,47 @@
+[
+  {
+    "model": "music.Artist",
+    "pk": 1,
+    "fields": {
+      "name": "Taylor Swift",
+      "short_description": "American singer-songwriter",
+      "genre": "Pop"
+    }
+  },
+  {
+    "model": "music.Artist",
+    "pk": 2,
+    "fields": {
+      "name": "Led Zeppelin",
+      "short_description": "English rock band",
+      "genre": "Rock"
+    }
+  },
+  {
+    "model": "music.Artist",
+    "pk": 3,
+    "fields": {
+      "name": "Metallica",
+      "short_description": "American heavy metal band",
+      "genre": "Metal"
+    }
+  },
+  {
+    "model": "music.Artist",
+    "pk": 4,
+    "fields": {
+      "name": "Arctic Monkeys",
+      "short_description": "English indie rock band",
+      "genre": "Indie"
+    }
+  },
+  {
+    "model": "music.Artist",
+    "pk": 5,
+    "fields": {
+      "name": "David Guetta",
+      "short_description": "French DJ and record producer",
+      "genre": "House"
+    }
+  }
+]

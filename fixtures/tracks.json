@@ -1,0 +1,101 @@
+[
+  {
+    "model": "music.Track",
+    "pk": 1,
+    "fields": {
+      "title": "Blank Space",
+      "lyrics": "Nice to meet you, where you been?",
+      "duration": "03:51",
+      "artist" : "Taylor Swift",
+      "album": "1989"
+    }
+  },
+  {
+    "model": "music.Track",
+    "pk": 2,
+    "fields": {
+      "title": "Shake It Off",
+      "lyrics": "I stay out too late, got nothing in my brain",
+      "duration": "03:39",
+      "artist" : "Taylor Swift",
+      "album": "1989"
+    }
+  },
+  {
+    "model": "music.Track",
+    "pk": 3,
+    "fields": {
+      "title": "Stairway to Heaven",
+      "lyrics": "There's a lady who's sure all that glitters is gold",
+      "duration": "08:02",
+      "artist" : "Led Zeppelin",
+      "album": "Led Zeppelin IV"
+    }
+  },
+  {
+    "model": "music.Track",
+    "pk": 4,
+    "fields": {
+      "title": "Enter Sandman",
+      "lyrics": "Say your prayers, little one, don't forget my son",
+      "duration": "05:31",
+      "artist" : "Metallica",
+      "album": "Master of Puppets"
+    }
+  },
+  {
+    "model": "music.Track",
+    "pk": 5,
+    "fields": {
+      "title": "Fade to Black",
+      "lyrics": "Life, it seems, will fade away",
+      "duration": "06:56",
+      "artist" : "Metallica",
+      "album": "Master of Puppets"
+    }
+  },
+  {
+    "model": "music.Track",
+    "pk": 6,
+    "fields": {
+      "title": "Do I Wanna Know?",
+      "lyrics": "Have you got color in your cheeks?",
+      "duration": "04:33",
+      "artist" : "Arctic Monkeys",
+      "album": "AM"
+    }
+  },
+  {
+    "model": "music.Track",
+    "pk": 7,
+    "fields": {
+      "title": "R U Mine?",
+      "lyrics": "I'm a puppet on a string",
+      "duration": "03:21",
+      "artist" : "Arctic Monkeys",
+      "album": "AM"
+    }
+  },
+  {
+    "model": "music.Track",
+    "pk": 8,
+    "fields": {
+      "title": "Bad",
+      "lyrics": "Show me the way, show me the way",
+      "duration": "04:30",
+      "artist" : "David Guetta",
+      "album": "Listen"
+    }
+  },
+  {
+    "model": "music.Track",
+    "pk": 9,
+    "fields": {
+      "title": "Lovers on the Sun",
+      "lyrics": "We'll find a way to make it right",
+      "duration": "03:23",
+      "artist" : "David Guetta",
+      "album": "Listen"
+    }
+  }
+]
