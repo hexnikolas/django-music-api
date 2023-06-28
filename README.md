@@ -197,6 +197,9 @@ The gitlab-ci.yml is shown below:
 	  when: manual # manual task, it won't be automatically triggered
 
 Two stages are defined inside the file: build and deploy. Both are activated only on master branch.
+
 The script inside build stage, first builds the image, then logs in and pushes it to repo.awesomecorp.com.
+
 The script inside deploy stage logs in to repo.awesome.com, pulls the image, and composes it.
+
 Deploy stage activates manually.
